@@ -1,0 +1,19 @@
+{
+  "name": "closure-scope",
+  "version": "1.0.0",
+  "description": "This is a colection of exercises about the behavior of scope and closure in js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/machanic16/closure-scope-js.git"
+  },
+  "author": "Joel Tovar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/machanic16/closure-scope-js/issues"
+  },
+  "homepage": "https://github.com/machanic16/closure-scope-js#readme"
+}
