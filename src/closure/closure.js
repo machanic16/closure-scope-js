@@ -48,6 +48,26 @@ const c2 = increment();
 const c3 = increment();
 console.log("example increment", c1, c2, c3);
 
-function createAccount() {
-  // here I will add the logic for bank account of different people
+function createAccount(name, socialSecurity) {
+  let balance = 0;
+  let owner = name;
+  let social = socialSecurity;
+  return {
+    showBalance: () => {
+      return balance;
+    },
+    deposit: (amount) => {
+      balance += amount;
+      console.log(`$${amount} was succesfully deposited to ${owner} account`);
+      console.log(`${owner}'s balance is $${balance}`);
+    },
+    withdraw: (amount) => {
+      balance -= amount;
+      console.log(`$${amount} was succesfully withdraw from ${owner} account`);
+      console.log(`${owner}'s balance is $${balance}`);
+    },
+  };
 }
+
+let account1 = createAccount("Joel");
+let account2 = createAccount("Karla");
