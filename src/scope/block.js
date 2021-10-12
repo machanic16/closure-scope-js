@@ -20,7 +20,7 @@ console.log(x + " Outside of the block");
 
 // Is better only use 'let'
 const anotherFunction = () => {
-  for (let i = 0; i < 10; i++) {
+  for (var i = 0; i < 10; i++) {
     setTimeout(() => {
       console.log(i);
     }, 3000);

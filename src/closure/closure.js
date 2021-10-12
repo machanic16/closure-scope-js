@@ -48,7 +48,6 @@ const c2 = increment();
 const c3 = increment();
 console.log("example increment", c1, c2, c3);
 
-
-function createAccount {
-  
+function createAccount() {
+  // here I will add the logic for bank account of different people
 }
